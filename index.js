@@ -7,9 +7,9 @@ n1= n1*6
 n1= Math.floor(n1) +1;
 
 var rd = "dice" + n +".png"
-var rdr = "images/"+rd
+var rdr = rd
 var rd1 = "dice" + n1 +".png"
-var rdr1 = "images/"+rd1
+var rdr1 = rd1
 var image1 = document.querySelectorAll("img")[0]
 image1.setAttribute("src", rdr)
 var image2 = document.querySelectorAll("img")[1]
